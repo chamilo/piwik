@@ -1,0 +1,16 @@
+{
+  "name": "Chamilo",
+  "version": "0.1.0",
+  "description": "Specific reports for the Chamilo LMS e-learning platform",
+  "theme": false,
+  "require": {
+    "piwik": ">=2.15.0-b3"
+  },
+  "authors": [
+    {
+      "name": "Piwik",
+      "email": "",
+      "homepage": ""
+    }
+  ]
+}

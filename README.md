@@ -1,2 +1,19 @@
-# piwik
-Piwik plugin to show more useful data about Chamilo
+# Piwik Chamilo Plugin
+
+## Description
+
+Add your plugin description here.
+
+## FAQ
+
+__My question?__
+
+My answer
+
+## Changelog
+
+Here goes the changelog text.
+
+## Support
+
+Please direct any feedback to ...
