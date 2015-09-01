@@ -10,4 +10,18 @@ namespace Piwik\Plugins\Chamilo;
 
 class Chamilo extends \Piwik\Plugin
 {
+    /**
+     * Get the course code from the URL
+     * @param   string  $url    The URL loaded by the user
+     * @return  mixed (matched string)
+     */
+    public function getCourseCode($url) {
+        $matches = array();
+        $match = preg_match('#&cidReq=(^&)*', $url, $matches);
+        if (!$match) {
+            return null;
+        } else {
+            return $matches[1];
+        }
+    }
 }
